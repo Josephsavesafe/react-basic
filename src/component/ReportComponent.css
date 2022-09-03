@@ -1,0 +1,25 @@
+.report-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4c5057;
+  padding: 1rem 0;
+  /* margin: 1rem 0; */
+}
+.report-container > div {
+    flex: 1;
+    /* text-align: center; */
+}
+
+.report-container > div:first-of-type {
+    border-right: 0.1rem solid #dedede;
+}
+.report{
+    letter-spacing: 0.1rem;
+    /* margin: 5px 0; */
+}
+.plus{
+    color: rgb(7, 219, 7);
+}
+.minus{
+    color: red;
+}
